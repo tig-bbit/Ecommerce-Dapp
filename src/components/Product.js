@@ -8,7 +8,6 @@ import close from '../assets/close.svg'
 
 
 const Product = ({ item, provider, account, dappazon, togglePop }) => {
-<<<<<<< HEAD
   const [order, setOrder] = useState(null)
   const [hasBought, setHasBought] = useState(false)
 
@@ -99,22 +98,13 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
                 </strong>
               </div>
             )}
-
           </div>
 
           <button onClick={togglePop} className="product__close" >
             <img src={close} alt="Close"/>
-          </button>
-
-        
+          </button>       
       </div>
-=======
-
-  return (
-    <div className="product">
-
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
-    </div >
+      </div>
   );
 }
 

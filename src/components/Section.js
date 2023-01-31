@@ -7,7 +7,6 @@ const Section = ({ title, items, togglePop }) => {
     return (
         <div className='cards__section'>
 
-<<<<<<< HEAD
             <hr/>
 
             <div className='cards' >
@@ -24,9 +23,6 @@ const Section = ({ title, items, togglePop }) => {
                     </div>
                 ))}
             </div>
-
-=======
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
         </div>
     );
 }

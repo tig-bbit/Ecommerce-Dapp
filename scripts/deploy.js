@@ -12,7 +12,6 @@ const tokens = (n) => {
 }
 
 async function main() {
-<<<<<<< HEAD
   // Setup Accounts
   const [deployer] = await ethers.getSigners()
 
@@ -38,10 +37,6 @@ async function main() {
 
     console.log(`Listed item ${items[i].id}: ${items[i].name}`)
   }
-
-=======
-
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
 }
 
 // We recommend this pattern to be able to use async/await everywhere

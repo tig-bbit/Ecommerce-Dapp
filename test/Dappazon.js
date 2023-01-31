@@ -5,7 +5,6 @@ const tokens = (n) => {
   return ethers.utils.parseUnits(n.toString(), 'ether')
 }
 
-<<<<<<< HEAD
 // Global constants for listing on item
 const ID = 1
     const NAME = "SHOES"
@@ -132,8 +131,4 @@ let deployer, buyer
       expect(result).to.equal(0)
     })
   })
-=======
-describe("Dappazon", () => {
-
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
 })

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-<<<<<<< HEAD
+
 contract Dappazon {
     address public owner;
 
@@ -86,7 +86,6 @@ contract Dappazon {
 
         // Emit event
         emit Buy(msg.sender, orderCount[msg.sender], item.id);
-
     }
 
     
@@ -96,6 +95,3 @@ contract Dappazon {
         require (success);
     }
 }
-=======
-contract Dappazon {}
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd

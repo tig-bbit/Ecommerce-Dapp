@@ -9,7 +9,6 @@ const Navigation = ({ account, setAccount }) => {
     }
     return (
         <nav>
-<<<<<<< HEAD
             <div className='nav__brand'>
                 <h1>Dappazon</h1>
             </div>
@@ -25,19 +24,11 @@ const Navigation = ({ account, setAccount }) => {
                 </button>
             )}
 
-
-
-
-            
-
             <ul className='nav__links' >
                 <li><a href='#Clothing & Jewelery' >Clothing & Jewelery</a></li>
                 <li><a href='#Electronics & Gadgets' >Electronics & Gadgets</a></li>
                 <li><a href='#Toys & Gaming' >Toys & Gaming</a></li>
             </ul>
-=======
-
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
         </nav>
     );
 }

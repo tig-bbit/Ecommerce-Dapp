@@ -13,7 +13,6 @@ import Dappazon from './abis/Dappazon.json'
 import config from './config.json'
 
 function App() {
-<<<<<<< HEAD
   const [provider, setProvider] = useState(null)
   const [dappazon, setDappazon] = useState(null)
 
@@ -65,7 +64,8 @@ function App() {
   return (
     <div>
       <Navigation account={account} setAccount={setAccount} />
-      <h2>Welcome to Dappazon</h2>
+
+      <h2>Dappazon Best Sellers</h2>
 
       {electronics && clothing && toys && (
         <>
@@ -78,16 +78,6 @@ function App() {
       {toggle && (
         <Product item={item} provider={provider} account={account} dappazon={dappazon} togglePop={togglePop} />
       )}
-      
-
-=======
-
-  return (
-    <div>
-
-      <h2>Welcome to Dappazon</h2>
-
->>>>>>> 088c37719279ddcc3a25c61424ba239e2f5235bd
     </div>
   );
 }

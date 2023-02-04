@@ -38,8 +38,8 @@ function App() {
     const network = await provider.getNetwork()
 
     // Connect to smart contracts (Create JS versions)
-    const dappazon = new ethers.Contract(config[network.chainId].dappazon.address, Dappazon, provider)
-    setDappazon(dappazon)
+    // const dappazon = new ethers.Contract(config[network.chainId].dappazon.address, Dappazon, provider)
+    // setDappazon(dappazon)
 
     // Load products
     const items = []

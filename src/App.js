@@ -10,7 +10,8 @@ import Product from './components/Product'
 import Dappazon from './abis/Dappazon.json'
 
 // Config
-import config from './config.json'
+import config from './config.js'
+import goerliNetwork from './config.js'
 
 function App() {
   const [provider, setProvider] = useState(null)
@@ -38,8 +39,8 @@ function App() {
     const network = await provider.getNetwork()
 
     // Connect to smart contracts (Create JS versions)
-    // const dappazon = new ethers.Contract(config[network.chainId].dappazon.address, Dappazon, provider)
-    // setDappazon(dappazon)
+    const dappazon = new ethers.Contract(config[goerliNetwork].dappazon.address, Dappazon, provider)
+    setDappazon(dappazon)
 
     // Load products
     const items = []

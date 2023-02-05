@@ -10,7 +10,7 @@ import Product from './components/Product'
 import Dappazon from './abis/Dappazon.json'
 
 // Config
-import config from './config.js'
+import config from './config.json'
 import goerliNetwork from './config.js'
 
 function App() {
@@ -33,13 +33,16 @@ function App() {
 
   const loadBlockchainData = async () => {
     // Connect to blockchain
-    const provider = new ethers.providers.Web3Provider(window.ethereum)
+    const provider = new ethers.providers.JsonRpcProvider("https://eth-goerli.g.alchemy.com/v2/JKitIFsogKIATcQOVL53nTszyAlokY6T");
     setProvider(provider)
+
+    const contractAddress = "0xc7FEAB23d887ADfC2c967bAAdf529F4ed3d161df";
+    const contractABI = Dappazon;
 
     const network = await provider.getNetwork()
 
     // Connect to smart contracts (Create JS versions)
-    const dappazon = new ethers.Contract(config[goerliNetwork].dappazon.address, Dappazon, provider)
+    const dappazon = new ethers.Contract(contractAddress, contractABI, provider)
     setDappazon(dappazon)
 
     // Load products

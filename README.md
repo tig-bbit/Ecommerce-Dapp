@@ -1,12 +1,12 @@
 # Decentralized E-Commerce
 
-The E-commerce dApp is a decentralized application (dApp) that revolutionizes the online shopping experience by leveraging blockchain technology. It provides users with a secure and transparent platform where they can buy products using cryptocurrencies.
+The E-commerce decentralized application (dApp) represents a paradigm shift in the realm of online retail by harnessing the capabilities of blockchain technology. This innovative platform offers users a secure and transparent environment for conducting transactions using cryptocurrencies.
 
-With this dApp, users can explore a wide range of products from various sellers, ensuring a diverse marketplace. Each product listing includes detailed information, images, and reviews from previous buyers, empowering users to make informed purchasing decisions.
+Through this dApp, users gain access to a diverse marketplace featuring an array of products from multiple vendors. Each product listing is accompanied by comprehensive details, images, and feedback from past purchasers, empowering users to make well-informed purchasing choices.
 
-The dApp integrates with blockchain technology, enabling secure and immutable transactions. Smart contracts are utilized to facilitate the buying process, ensuring that funds are transferred only when the buyer confirms receipt of the product. This eliminates the need for intermediaries, reduces transaction costs, and enhances trust between buyers and sellers.
+The integration of blockchain technology ensures the integrity and security of transactions within the platform. Utilizing smart contracts streamlines the purchasing process, guaranteeing that funds are transferred solely upon the buyer's confirmation of product receipt. This eradicates the necessity for intermediaries, diminishes transaction fees, and fosters heightened trust between buyers and sellers.
 
-By leveraging the advantages of blockchain technology, such as decentralization, transparency, and security, this E-commerce dApp provides a next-generation shopping experience. It offers a global marketplace where anyone can participate, regardless of geographic location or traditional banking infrastructure.
+By leveraging the inherent benefits of blockchain technology, including decentralization, transparency, and robust security measures, this E-commerce dApp presents a cutting-edge shopping experience. It establishes a global marketplace that transcends geographical constraints and traditional banking infrastructure, offering inclusivity to participants worldwide.
 
 ## Technology Stack & Tools
 
@@ -17,27 +17,34 @@ By leveraging the advantages of blockchain technology, such as decentralization,
 - [React.js](https://reactjs.org/)
 
 ## Requirements For Initial Setup
+
 - Install [NodeJS](https://nodejs.org/en/)
 
 ## Setting Up
+
 ### 1. Clone/Download the Repository
 
 ### 2. Install Dependencies:
+
 `$ npm install`
 
 ### 3. Run tests
+
 `$ npx hardhat test`
 
 ### 4. Start Hardhat node
+
 `$ npx hardhat node`
 
 ### 5. Run deployment script
+
 In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
 
 ### 6. Start frontend
+
 `$ npm run start`
 
 ## Authors
 
-- [@JjuliSanz ](https://github.com/JjuliSanz)
+- [@J_son ](https://github.com/tig-bbit)
